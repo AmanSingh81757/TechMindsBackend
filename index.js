@@ -1,6 +1,8 @@
-require('dotenv').config();
-const cors = require('cors')
-const express = require('express')
+import dotenv from "dotenv"
+import express from "express"
+import cors from "cors"
+
+dotenv.config();
 
 const app = express();
 const port = 3000;
